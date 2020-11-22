@@ -3,11 +3,6 @@ const fs = require('fs')
 const path = require('path')
 
 const server = http.createServer((req, res) => {
-  // const body =
-  //   req.url === '/style.css'
-  //     ? fs.readFileSync('./public/style.css')
-  //     : fs.readFileSync('./public/index.html')
-  // res.end(body)
   let filePath = path.join(
     __dirname,
     'public',
