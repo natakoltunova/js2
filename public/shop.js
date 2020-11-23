@@ -67,9 +67,7 @@ class List extends AbstractList {
   }
 
   fetchGoods() {
-    const result = fetch(
-      `https://jslessons-koltunova.herokuapp.com//database/page${this._pageCounter}.json`
-    )
+    const result = fetch(`./database/page${this._pageCounter}.json`)
     return result
       .then((res) => {
         return res.json()
