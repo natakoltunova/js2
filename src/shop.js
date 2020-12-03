@@ -6,6 +6,8 @@ import GoodItem from './gooditem.js'
 import GoodItemInCart from './gooditemincart.js'
 import List from './list.js'
 
+import './style.css'
+
 //в этом классе будет функционал для любых списков
 // class AbstractList {
 //   items = []
