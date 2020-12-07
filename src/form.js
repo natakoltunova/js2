@@ -23,8 +23,8 @@ export default class Form {
 
       const patterns = {
         username: /^[A-Za-z]+$/,
-        phone: /^\+7{1}\(\d{3}\)\d]{3}-\d{4}$/,
-        email: /^([a-z\d\.-]+)@([a-z]+)\.([a-z]{2})$/,
+        phone: /^\+7\(\d{3}\)\d{3}-\d{4}$/,
+        email: /^([a-z\d]+)([a-z\d\.-]+)@([a-z]+)\.([a-z]{2})$/,
       }
 
       function validate(field, regex) {
@@ -46,4 +46,4 @@ export default class Form {
   }
 }
 
-const FormInstance = new Form()
+// const FormInstance = new Form()
