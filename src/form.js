@@ -46,4 +46,4 @@ export default class Form {
   }
 }
 
-const FormInstance = new Form()
+// const FormInstance = new Form()

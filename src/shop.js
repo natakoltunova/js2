@@ -1,14 +1,10 @@
-// import AbstractList from './abstractlist.js'
-// import Button from './button.js'
 import Cart from './cart.js'
 import Form from './form.js'
-import GoodItem from './gooditem.js'
-import GoodItemInCart from './gooditemincart.js'
 import List from './list.js'
 
 import './style.css'
 
-//в этом классе будет функционал для любых списков
+// // в этом классе будет функционал для любых списков
 // class AbstractList {
 //   items = []
 
@@ -271,5 +267,5 @@ import './style.css'
 
 // Все что нам остается - создать объекты класса List, Cart.Остальное они сделают сами
 const CartInstance = new Cart()
-const ListInstance = new List(CartInstance)
 const FormInstance = new Form()
+const ListInstance = new List(CartInstance)
