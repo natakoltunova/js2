@@ -1,19 +1,12 @@
 import Button from './button.js'
+import AGoodItem from './agi.js'
 import GoodItemInCart from './gooditemincart.js'
 
 // класс карточки товара
-export default class GoodItem {
-  name = ''
-  price = 0
-  counter = 1
-  //локальн. св-во корзины, в которое в конструкторе передаётся объект корзина
-  _cartInstance = null
-
+export default class GoodItem extends AGoodItem {
   // в аргументах применена деструктуризация
   constructor({ name, price }, CartInstance) {
-    this.name = name
-    this.price = price
-    this._cartInstance = CartInstance
+    super({ name, price }, CartInstance)
   }
 
   render(placeToRender) {
