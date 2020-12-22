@@ -4,7 +4,7 @@ import Button from './button.js'
 export default class Cart extends AbstractList {
   constructor() {
     super()
-    //запускаем inin()+внизу
+    //запускаем init()+внизу
     this.init()
   }
 
@@ -46,5 +46,3 @@ export default class Cart extends AbstractList {
     }
   }
 }
-
-const CartInstance = new Cart()
