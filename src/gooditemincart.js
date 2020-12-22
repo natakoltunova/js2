@@ -1,7 +1,7 @@
 import Button from './button.js'
-import Item from './item.js'
+import AGoodItem from './agi.js'
 
-export default class GoodItemInCart extends Item {
+export default class GoodItemInCart extends AGoodItem {
   constructor(props) {
     super(props)
   }

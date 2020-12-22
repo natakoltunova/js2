@@ -46,5 +46,3 @@ export default class Cart extends AbstractList {
     }
   }
 }
-
-// const CartInstance = new Cart()
